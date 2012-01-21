@@ -24,7 +24,7 @@ Room 34 presents On This Day is a very simple widget that displays a list of blo
 == Changelog ==
 
 = 1.1 =
-* Added CSS class to <ul> tag and changed tag and class attribute for each <li> item.
+* Added CSS class to ul tag and changed tag and class attribute for each li item.
 
 = 1.0 =
 * Original version.
