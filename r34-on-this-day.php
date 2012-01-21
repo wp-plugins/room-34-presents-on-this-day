@@ -61,7 +61,7 @@ class R34OnThisDay extends WP_Widget {
 		// Widget title
 		echo $before_title . $instance["title"] . $after_title;
 		?>
-		<ul>
+		<ul class="r34otd">
 			<?php
 			if (count($historic_posts)) {
 				foreach ($historic_posts as $hpost) {
@@ -70,8 +70,8 @@ class R34OnThisDay extends WP_Widget {
 					$no_history = false;
 					?>
 					<li>
-						<h3><a href="<?php bloginfo('siteurl'); ?>/archives/<?php echo $hpost->ID; ?>" rel="bookmark"><?php echo $hpost->post_title; ?></a></h3>
-						<div class="postmetadata"><?php echo date(get_option('date_format'),strtotime($hpost->post_date)); ?></div>
+						<div class="r34otd-headline"><a href="<?php bloginfo('siteurl'); ?>/archives/<?php echo $hpost->ID; ?>" rel="bookmark"><?php echo $hpost->post_title; ?></a></div>
+						<div class="r34otd-dateline"><?php echo date(get_option('date_format'),strtotime($hpost->post_date)); ?></div>
 					</li>							
 					<?php
 				}
