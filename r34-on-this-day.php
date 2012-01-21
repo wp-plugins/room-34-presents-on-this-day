@@ -3,7 +3,7 @@
 Plugin Name: Room 34 presents On This Day
 Plugin URI: http://blog.room34.com/archives/4841
 Description: A very simple widget that displays a list of blog posts that were published on the same date in previous years. Title and "no posts" message are customizable.
-Version: 1.0
+Version: 1.1
 Author: Scott Anderson / Room 34 Creative Services, LLC
 Author URI: http://room34.com
 License: GPL2
