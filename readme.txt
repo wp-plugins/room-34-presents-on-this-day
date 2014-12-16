@@ -3,8 +3,8 @@ Contributors: room34
 Donate link: http://room34.com/donation
 Tags: archive, history, calendar
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 1.1
+Tested up to: 4.0.1
+Stable tag: 1.1.1
 
 Display your blog posts from this date in previous years as a sidebar widget.
 
@@ -22,6 +22,9 @@ Room 34 presents On This Day is a very simple widget that displays a list of blo
 
 == Screenshots ==
 == Changelog ==
+
+= 1.1.1 =
+* Updated "Tested up to" tag.
 
 = 1.1 =
 * Added CSS class to ul tag and changed tag and class attribute for each li item.
