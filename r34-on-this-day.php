@@ -3,13 +3,13 @@
 Plugin Name: Room 34 presents On This Day
 Plugin URI: http://blog.room34.com/archives/4841
 Description: A very simple widget that displays a list of blog posts that were published on the same date in previous years. Title and "no posts" message are customizable.
-Version: 1.2
+Version: 1.3
 Author: Scott Anderson / Room 34 Creative Services, LLC
 Author URI: http://room34.com
 License: GPL2
 */
 
-/*  Copyright 2012-2014 Room 34 Creative Services, LLC (email: info@room34.com)
+/*  Copyright 2012-2015 Room 34 Creative Services, LLC (email: info@room34.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -31,7 +31,7 @@ class R34OnThisDay extends WP_Widget {
 	var $default_no_posts_message = 'Nothing has ever happened on this day. <em>Ever.</em>';
 
 	function R34OnThisDay() {
-		parent::WP_Widget(false, $name='On This Day');
+		parent::__construct('r34otd', 'On This Day');
 	}
 	
 	function widget($args, $instance) {
