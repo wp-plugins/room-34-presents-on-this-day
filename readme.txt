@@ -4,7 +4,7 @@ Donate link: http://room34.com/donation
 Tags: archive, history, calendar
 Requires at least: 3.0
 Tested up to: 4.3
-Stable tag: 1.2
+Stable tag: 1.3
 
 Display your blog posts from this date in previous years as a sidebar widget.
 
